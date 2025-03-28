@@ -31,12 +31,12 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/TudoseVlad/website.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio
+   cd website
    ```
 
 3. Install dependencies:
