@@ -97,6 +97,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername) - your.email@example.com
+Your Name - [@VladTdose]() - tvacoding@gmail.com
 
-Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
+Project Link: [https://github.com/TudoseVlad/website](https://github.com/TudoseVlad/website)
