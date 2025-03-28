@@ -4,7 +4,7 @@ const featuredProjects = [
     id: 1,
     title: "Object Detection for Robotic Arms",
     description: "Program that detects objects captured by a camera mounted above a crate, determines the objects' visibility, and prioritizes extraction based on surface area.",
-    link: "",
+    link: "https://github.com/TudoseVlad/Object_detection",
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export default function Home() {
             {featuredProjects.map((project) => (
               <div key={project.id} className="bg-white rounded-lg shadow-lg overflow-hidden text-gray-700">
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Project {project.id}</h3>
+                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                   <p className="text-gray-600 mb-4">
                     {project.description}
                   </p>

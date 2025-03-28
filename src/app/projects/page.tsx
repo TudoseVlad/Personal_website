@@ -20,7 +20,7 @@ export default function Projects() {
       category: "AI/ML",
       description: "Developed a machine learning-based object detection system using the YOLO (You Only Look Once) algorithm. The system detects objects captured by a camera mounted above a crate, determines the objects' visibility, and prioritizes extraction based on surface area. Created a user interface using PyQt for testing program accuracy and decision- making.",
       technologies: ["Python", "PyQt", "YOLO"],
-      link: "",
+      link: "https://github.com/TudoseVlad/Object_detection",
     },
     {
       id: 2,
