@@ -1,7 +1,8 @@
 'use client';
 
-import Link from "next/link";
-import { use, useState } from "react";
+import { useState } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
