@@ -123,7 +123,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Information */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-gray-700">
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
               <div className="space-y-4">
