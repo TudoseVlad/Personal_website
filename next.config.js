@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  output: 'export',
   reactStrictMode: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/website/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/Personal_website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Personal_website/' : '',
   images: {
     unoptimized: true,
   },
