@@ -27,7 +27,7 @@ export default function Projects() {
       id: 2,
       title: "Data Scraper for Websites",
       category: "web",
-      description: "Designed a data scraping program specifically tailored for the iabliet site. The program extracts data and formats it into a template, which is then stored on Firebase Cloud for use in frontend applications.",
+      description: "Designed a data scraping program specifically tailored for the iabilet site. The program extracts data and formats it into a template, which is then stored on Firebase Cloud for use in frontend applications.",
       technologies: ["Python", "Web Scraping", "Selenium", "Firebase Cloud"],
       link: "https://github.com/TudoseVlad/data_fetcher",
     },
