@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-//import Image from 'next/image'
+import Image from 'next/image'
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -107,7 +107,7 @@ export default function Projects() {
             >
               <div className="relative h-48">
                 <div className="absolute inset-0 bg-gray-200">
-                {/*
+                
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -115,7 +115,7 @@ export default function Projects() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{ objectFit: 'cover' }}
                   priority={project.id <= 3}
-                />*/}
+                />
                 
                 </div>
               </div>
