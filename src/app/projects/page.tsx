@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+//import Image from 'next/image'
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -106,6 +106,8 @@ export default function Projects() {
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
             >
               <div className="relative h-48">
+                <div className="absolute inset-0 bg-gray-200">
+                {/*
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -113,6 +115,8 @@ export default function Projects() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{ objectFit: 'cover' }}
                 />
+                */}
+                </div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-gray-700">{project.title}</h3>
