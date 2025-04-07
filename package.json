@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "mkdir -p public/img && [ -d src/app/projects/img ] && cp -r src/app/projects/img/* public/img/ || echo 'No source images to copy' && next build",
     "start": "next start",
     "lint": "next lint"
   },

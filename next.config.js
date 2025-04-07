@@ -6,7 +6,14 @@ const nextConfig = {
   assetPrefix: process.env.NODE_ENV === 'production' ? '/Personal_website/' : '',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
