@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-//import Image from 'next/image'
+import Image from 'next/image'
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -21,7 +21,9 @@ export default function Projects() {
       category: "AI/ML",
       description: "Developed a machine learning-based object detection system using the YOLO (You Only Look Once) algorithm. The system detects objects captured by a camera mounted above a crate, determines the objects' visibility, and prioritizes extraction based on surface area. Created a user interface using PyQt for testing program accuracy and decision- making.",
       technologies: ["Python", "PyQt", "YOLO"],
+      image: "/img/Object_Detection_for_Robotic_Arms.png",
       link: "https://github.com/TudoseVlad/Object_detection",
+      
     },
     {
       id: 2,
@@ -29,6 +31,7 @@ export default function Projects() {
       category: "web",
       description: "Designed a data scraping program specifically tailored for the iabilet site. The program extracts data and formats it into a template, which is then stored on Firebase Cloud for use in frontend applications.",
       technologies: ["Python", "Web Scraping", "Selenium", "Firebase Cloud"],
+      image: "/img/Data_Scraper_for_Websites.png",
       link: "https://github.com/TudoseVlad/data_fetcher",
     },
     {
@@ -37,6 +40,7 @@ export default function Projects() {
       category: "web",
       description: "A simple youtube copycat using React.",
       technologies: ["JavaScript", "React"],
+      image: "/img/Youtube_Copy.png",
       link: "https://github.com/TudoseVlad/Simple_youtube_copy_project",
     },
     {
@@ -45,6 +49,7 @@ export default function Projects() {
       category: "web3",
       description: "Created and implemented various small- scale projects on the Ethereum blockchain using Solidity for smart contract development and JavaScript with React for frontend components.",
       technologies: ["Solidity", "JavaScript", "React"],
+      image: "/img/Small_web3_project.png",
       link: "https://github.com/TudoseVlad/Lottery_blockchain_project",
     },
     {
@@ -53,6 +58,7 @@ export default function Projects() {
       category: "Web",
       description: "Designed for handling order management with a dual-database architecture. It uses PostgreSQL for storing order data and user credentials (hashed for JWT generation) and Redis for storing JWT tokens. The API provides various endpoints for user authentication (/auth), order creation (/orders), and order queries (e.g., retrieving orders by ID or status). Authentication is required for order-related commands via Bearer tokens. This project demonstrates secure, scalable order processing with separate databases for different types of data.",
       technologies: ["Java", "Spring", "PostgreSQL", "Redis"],  
+      image: "/img/Java_Spring_API_project.png",
       link: "https://github.com/TudoseVlad/SpringProject ",
     },
     // Add more projects as needed
@@ -100,9 +106,13 @@ export default function Projects() {
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
             >
               <div className="relative h-48">
-                <div className="absolute inset-0 bg-gray-200">
-                  {/* Add project image here */}
-                </div>
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-gray-700">{project.title}</h3>
