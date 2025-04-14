@@ -5,7 +5,7 @@ const Footer = () => {
 
   const socialLinks = [
     { name: 'GitHub', href: 'https://github.com/TudoseVlad' },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/vlad-tudose-75b719195' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/vlad-tudose-adrian' },
   ];
 
   return (

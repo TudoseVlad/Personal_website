@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700"
-             onClick={() => window.open('https://www.linkedin.com/in/vlad-tudose-75b719195/', '_blank')}>
+             onClick={() => window.open('https://www.linkedin.com/in/vlad-tudose-adrian', '_blank')}>
               Get in Touch
             </button>
           </div>

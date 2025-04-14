@@ -199,7 +199,7 @@ export default function Contact() {
                         GitHub
                       </a>
                       <a
-                        href="https://linkedin.com/in/vlad-tudose-75b719195"
+                        href="https://www.linkedin.com/in/vlad-tudose-adrian"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-gray-900"
