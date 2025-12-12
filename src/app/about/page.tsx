@@ -25,9 +25,15 @@ export default function About() {
 
   const experiences = [
     {
+      title: "Go Developer",
+      company: "Geoned Ineractive S.R.L.",
+      period: "Jun 2025 - Present",
+      description: "Designed and maintained scalable microservices in Go and Java, leveraging Kafka for event-driven architectures and gRPC for high-performance service communication. Experienced in deploying and orchestrating services on Kubernetes to ensure reliability and scalability. Focused on backend development, system optimization, and delivering resilient distributed systems in fast-paced environments.",
+    },
+    {
       title: "Software Engineer",
       company: "Equinox AI B.V.",
-      period: "JAN 2025 - Present",
+      period: "JAN 2025 - Jun 2025",
       description: "Developed market-making and price arbitrage algorithms using C++. Proficient in working with REST APIs and integrating various technologies to optimize system performance. Skilled in deploying applications with Docker and ensuring code reliability through unit testing using Google Test. Adept at collaborating with cross-functional teams to deliver high-quality software solutions in fast-paced environments.",
     },
     {
